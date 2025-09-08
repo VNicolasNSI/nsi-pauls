@@ -12,7 +12,7 @@
                         <img src="https://galilee.ent.auvergnerhonealpes.fr/lectureFichiergw.do?ID_FICHIER=3782" width="13%">
                     </label>
                     <label class="center">
-                        Connexion
+                        Créer un compte
                     </label>
                     <label>
                         <a href="index.html">Retour</a>
@@ -22,19 +22,35 @@
         </header>
 
         <section class="accueildeux">
-            <form method="post" action="traitement.php" class="form">
-                <label class="interform">Se connecter</label>
+            <form method="post" action="traitementinscription.php" class="form">
+                <label class="interform">Créer un compte</label>
                 <article class="interform">
-                    <label>Mail : </label>
+                    <label>Prénom : &emsp;</label>
+                    <input type="text"/>
+                </article>
+                <article class="interform">
+                    <label>Nom : &emsp;</label>
+                    <input type="text"/>
+                </article>
+                <article class="interform">
+                    <label>Age : &emsp;</label>
+                    <input type="number"/>
+                </article>
+                <article class="interform">
+                    <label>Mail : &emsp;</label>
                     <input type="email" />
                 </article>
                 <article class="interform">
-                    <label>Mot de passe : </label>
+                    <label>Mot de passe : &emsp;</label>
+                    <input type="password" />
+                </article>
+                <article class="interform">
+                    <label>Répéter le mot de passe : &emsp;</label>
                     <input type="password" />
                 </article>
                 <article class="interform">
                     <label>
-                        Pas de compte ? <a href="inscription.html">S'inscrire</a>
+                        Un compte ? <a href="connexion.html">Se connecter</a>
                     </label>
                 </article>
             </form>

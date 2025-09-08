@@ -113,7 +113,7 @@ body {
     margin-top: 30px;
 }
 
-button {
+.button {
     background-color: #dae5ff;
     color: black;
     size: 100px;
@@ -147,5 +147,11 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #e6f4ff;
+    width: 30%;
 }
 
+.interform {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
