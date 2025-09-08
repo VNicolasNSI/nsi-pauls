@@ -28,7 +28,7 @@ nav {
 }
 
 .accueildeux {
-    background-color: #f4fbff;
+    background-color: #e6f4ff;
     color: #1c1c1c;
     justify-content: center;
     align-items: center;
@@ -141,3 +141,11 @@ footer {
     background-color: #2a5298;
     height: 150px;
 }
+
+.form {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #e6f4ff;
+}
+
