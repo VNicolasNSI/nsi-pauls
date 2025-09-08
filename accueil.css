@@ -121,6 +121,7 @@ button {
     padding: 15px 32px;
     border-radius: 50px;
     font-size: 20px;
+    cursor: cell;
 }
 
 .center {
