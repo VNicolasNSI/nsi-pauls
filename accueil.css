@@ -146,6 +146,12 @@ hr {
     background: white;
     margin: 20px 0;
     width: 80%;
+    color: white;
+}
+
+.planhr {
+    background-color: black;
+    color: black;
 }
 
 footer {
@@ -170,4 +176,12 @@ footer {
 .titre2 {
     font-size: 40px;
     margin: 50px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
 }
