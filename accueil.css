@@ -185,3 +185,42 @@ footer {
     justify-content: center;
     width: 80%;
 }
+
+a {
+    color: black;
+}
+
+aside {
+    width: 5%;
+    padding-right: 0.5rem;
+    margin-right: 0.5rem;
+    float: left;
+    color: white;
+    height: 100%;
+}
+
+.bodydash {
+    background: linear-gradient(360deg,#0d1b4c, #2a5298);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
+.footerdash {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navdash {
+    background-color: #2a5298;
+}
+
+.adash {
+    color: white;
+}
