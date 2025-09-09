@@ -41,7 +41,15 @@ nav {
     flex-direction: row;
     justify-content: space-around; 
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
+}
+
+.langages:hover {
+    transform:scale(1.05);
+}
+
+.cadre:hover {
+    transform:translateY(-5px) translateX(-5px) scale(1.05);
 }
 
 .centre {
@@ -49,6 +57,17 @@ nav {
     width: 80%;
     text-align: center;
     align-items: center;
+}
+
+.centrebouton {
+    margin-bottom: 40px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+.centrebouton:hover {
+    transform:scale(1.1)
 }
 
 html {
@@ -132,7 +151,7 @@ body {
     padding: 15px 32px;
     border-radius: 50px;
     font-size: 20px;
-    cursor: cell;
+    cursor: pointer;
 }
 
 .center {
@@ -173,6 +192,27 @@ footer {
     justify-content: space-between;
 }
 
+.interformsubmit {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.submit {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #000000;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+
 .titre2 {
     font-size: 40px;
     margin: 50px;
@@ -191,12 +231,21 @@ a {
 }
 
 aside {
-    width: 5%;
+    width: 7%;
     padding-right: 0.5rem;
     margin-right: 0.5rem;
     float: left;
     color: white;
-    height: 100%;
+    height: 221%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-style: solid;
+    border-left: #1c1c1c;
+    border-bottom: #1c1c1c;
+    border-top: #0a0a0a;
+    background-color: #486eb1;
+
 }
 
 .bodydash {
@@ -223,4 +272,69 @@ aside {
 
 .adash {
     color: white;
+    padding-bottom: 20px;
+}
+
+.casedash {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px 50px 250px;
+    padding: 10px 20px 5px 20px;
+    border-width: 2px;
+    border-color: #0d1b4c;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: aliceblue;
+    color: #0a0a0a;
+    box-shadow: 4px 4px #0a0a0a;
+    font-size: 20px;
+    height: 150px;
+}
+
+.intercasedash {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    border-left: #1c1c1c;
+    border-bottom: #1c1c1c;
+    border-top: #0a0a0a;
+    width: 50%;
+    height: 100%;
+}
+
+.intercasedash2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.espacecase {
+    padding-bottom: 10px;
+}
+
+.espaceaside {
+    padding-bottom: 25px;
+}
+
+.boutondash {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+}
+
+.separation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.classedash {
+    padding-top: 10%;
+    bottom: 0;
+    font-size: 15px;
+}
+
+.submit:hover {
+    transform: scale(1.1);
 }
